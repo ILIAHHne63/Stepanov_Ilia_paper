@@ -24,7 +24,11 @@
 Abstract
 ========
 
-Purus sit amet luctus venenatis lectus magna fringilla. Condimentum id venenatis a condimentum vitae sapien. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Eget egestas purus viverra accumsan in. Nam aliquam sem et tortor. Donec et odio pellentesque diam volutpat commodo. Odio pellentesque diam volutpat commodo sed egestas. Sit amet dictum sit amet justo. Pellentesque sit amet porttitor eget. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Quis varius quam quisque id diam vel quam elementum. Ornare lectus sit amet est placerat in. Vulputate dignissim suspendisse in est ante. Elit sed vulputate mi sit amet mauris. Egestas sed tempus urna et pharetra pharetra. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus.
+Аугментация данных играет ключевую роль в улучшении производительности моделей машинного обучения, особенно в области компьютерного зрения. Традиционные методы, такие как повороты, сдвиги и регулировка яркости, ограничены в своей способности обеспечивать значительные семантические вариации, что часто приводит к плохому обобщению на новые данные.
+
+В данной статье мы представляем новый подход, который позволяет заменять объекты на изображениях. Используя Visual Language Models, мы получаем описания изображений, а затем, используя Large Language Models, определяем, что можно заменить на изображении и составляем расширенный 'prompt', с помощью которого можем генерировать модифицированные данные. Таким образом, мы увеличиваем количество данных с использованием осмысленных 'prompts'.
+
+Мы демонстрируем эффективность данного подхода, проводя бенчмаркинг моделей, обученных с аугментированными и без аугментированных данных, показывая улучшения в производительности моделей детекции.
 
 Research publications
 ===============================
